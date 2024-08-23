@@ -1,52 +1,45 @@
-# Drowsy-Driver-detection
-
-This project implements a drowsy driver detection system using the Haar Cascade algorithm. The system detects and alerts the driver when signs of drowsiness are observed, such as closed eyes or yawning. The project is implemented in Python using OpenCV.
-
-**Features**
--Real-time detection: The system processes video feed from a webcam or other video source in real-time.
--Eye detection: Identifies whether the driver's eyes are closed for a prolonged period.
--Yawn detection: Detects yawning based on mouth movement.
--Alert system: Triggers an alert (sound or visual) when drowsiness is detected.
-
-**Prerequisites**
--Python 3.x
--OpenCV (cv2)
--NumPy
--Pygame (for playing alert sounds)
-
-**Installation**
-**1) Clone the repository**:
-   (git clone https://github.com/yourusername/drowsy-driver-detection.git
-cd drowsy-driver-detection
-)
-**2)Install the required packages:**
-(pip install -r requirements.txt)
-
-**Usage****
-**1)Run the detection script**
-(python drowsy_driver_detection.py)
-2)The system will start capturing video from your webcam. It will continuously monitor the driver for signs of drowsiness
-
-**Haar Cascade Files**
-The Haar Cascade algorithm relies on XML files containing the trained data for detecting specific features such as eyes, face, and mouth. You can download the pre-trained Haar Cascade files from the OpenCV GitHub repository:
--Haarcascades
-
-**Alert System**
-The alert system is triggered when the following conditions are met:
--Closed Eyes: If the eyes remain closed for more than a specified threshold, an alert is triggered.
--Yawning: If the mouth remains open for an extended period, indicating a yawn, an alert is also triggered.
-
-**Contributing**
--Contributions are welcome! Please fork this repository and submit a pull request.
-
-**License**
--This project is licensed under the MIT License - see the LICENSE file for details.
-
-**Acknowledgments**
-OpenCV for providing the Haar Cascade classifiers.
-Community contributors for the pre-trained Haar Cascade XML files
+<div id="top"></div>
 
 
+# Drowsyness-Detection
+
+<!-- PROJECT LOGO -->
+<!-- hello u know what time it is? -->
+<!-- it's disco time -->
+<br />
+<div align="center">
+  <a href="https://github.com/TheCleverIdiott/drowsiness-detection">
+    <img src="preview.jpg" alt="Logo" height="300" width="600">
+  </a>
+ </div>
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 
+## Dataset: <a href="https://drive.google.com/drive/folders/1HNk3O4uMNWmE09DQYzfmYsLevW3oOPvT?usp=sharing">Click Here</a>
+
+<h3 align="left">Made With</h3>
+<p align="left"> 
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
+<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="30" height="30"/></a>
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
+
+<br>
+
+## How to run the program:
+* Make sure to have Python version 10 or above and a Text Editor.
+* Install the dependencied by running `pip install -r requirements.txt`
+* Make sure `haarcascade_frontalface_default.xml`, `haarcascade_eye_tree_eyeglasses.xml` and `buzz.mp3` are in the same directory as `SleepDetection.py`.   
+* Run the `SleepDetection.py` file after completing the previous steps.
+    
+<br>
+  
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[contributors-url]: https://github.com/TheCleverIdiott/AI-Score-Predictor/graphs/contributors
+[license-shield]: https://img.shields.io/github/license/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[license-url]: https://github.com/TheCleverIdiott/AI-Score-Predictor/blob/main/LICENSE
 
